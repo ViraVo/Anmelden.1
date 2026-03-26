@@ -66,7 +66,6 @@
             margin-bottom: 30px;
         }
 
-        /* Statistik Boxen */
         .statistik {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -94,7 +93,6 @@
             opacity: 0.9;
         }
 
-        /* Buttons */
         .buttons {
             display: flex;
             gap: 15px;
@@ -138,7 +136,6 @@
             box-shadow: 0 10px 25px rgba(231, 76, 60, 0.4);
         }
 
-        /* Teilnehmer Tabelle */
         .tabelle-container {
             overflow-x: auto;
             border-radius: 15px;
@@ -210,7 +207,6 @@
             border: 2px solid #ffd700;
         }
 
-        /* Gürtel Anzeige */
         .guertel-cell {
             display: flex;
             align-items: center;
@@ -221,7 +217,6 @@
             font-size: 1.3em;
         }
 
-        /* Löschen Button in Tabelle */
         .delete-btn {
             background: #e74c3c;
             color: white;
@@ -242,7 +237,6 @@
             transform: scale(1.1);
         }
 
-        /* Karten-Ansicht für Mobile */
         .karten-liste {
             display: none;
             gap: 20px;
@@ -303,7 +297,6 @@
             font-style: italic;
         }
 
-        /* Leer Zustand */
         .leer {
             text-align: center;
             padding: 80px 40px;
@@ -321,7 +314,6 @@
             font-size: 1.5em;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .tabelle-container {
                 display: none;
